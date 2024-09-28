@@ -1,0 +1,17 @@
+
+.footer {
+    background-color: #343a40; /* Dark footer background */
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-links {
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }

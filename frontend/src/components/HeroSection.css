@@ -1,0 +1,18 @@
+
+.hero-section {
+    background-color: #007bff; /* Hero background color */
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: white;
+    color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,16 @@
+
+
+.how-it-works {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around; /* Space out the steps */
+  }
+  
+  .step {
+    width: 30%; /* Adjust the width of each step */
+    padding: 20px;
+  }

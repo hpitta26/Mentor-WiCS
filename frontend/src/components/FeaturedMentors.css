@@ -1,0 +1,19 @@
+
+.featured-mentors {
+    padding: 40px 20px;
+  }
+  
+  .mentor-cards {
+    display: flex;
+    justify-content: space-around; /* Space out the cards */
+    flex-wrap: wrap; /* Wrap cards to the next line */
+  }
+  
+  .mentor-card {
+    width: 30%; /* Adjust the card size */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    text-align: center;
+  }

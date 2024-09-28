@@ -1,0 +1,32 @@
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure full height for the layout */
+}
+
+main {
+  flex: 1; /* Allow the main section to grow and take available space */
+  /* padding: 20px; */
+}
+
+.section {
+  background-color: 'white'; /* White background for sections */
+  /* border-radius: 8px;  */
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+
+  /* margin-bottom: 20px; */
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #343a40; /* Dark text color for contrast */
+}
+
+/* Specific styles for each page */
+.home {
+  text-align: center; /* Center text for the home page */
+}
+

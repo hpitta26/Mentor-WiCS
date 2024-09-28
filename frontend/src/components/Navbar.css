@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff; /* Navbar background color */
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .navbar-brand h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust the font size */
+  }
+  
+  .navbar-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px; /* Space between links */
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }

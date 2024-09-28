@@ -1,0 +1,62 @@
+
+.user-form {
+    max-width: 400px; /* Limit the width of the form */
+    margin: 40px auto 0; /* Center the form on the page */
+    padding: 20px;
+    background-color: white; /* White background for the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+  
+.user-form h2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+  
+.user-form input {
+    width: 94%; 
+    padding: 10px; /* Inner padding */
+    margin-bottom: 15px; 
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+.user-form select {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Inner padding */
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+}
+  
+.user-form button {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Inner padding */
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+  
+.user-form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+
+.feedback-message {
+    margin-top: 20px; /* Space above the message */
+    padding: 10px; /* Inner padding */
+    color: white; /* Text color */
+    border-radius: 4px; /* Rounded corners */
+    text-align: center; /* Center the text */
+}
+
+.success {
+    background-color: #28a745; /* Green background for success */
+}
+  
+.error {
+    background-color: #dc3545; /* Red background for error */
+}
