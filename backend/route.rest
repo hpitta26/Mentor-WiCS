@@ -1,0 +1,31 @@
+
+### TEST ROUTES HERE
+
+POST http://localhost:8000/api/mentees
+Content-Type: application/json
+
+{
+    "name": "Henrique Pitta Laranjinha",
+    "email": "20henriquep@gmail.com",
+    "password": "HI",
+    "role": "mentee"
+}
+
+###
+
+GET http://localhost:8000/api/mentees
+
+###
+
+DELETE http://localhost:8000/api/mentees
+
+###
+
+POST http://localhost:8000/api/chatbot
+Content-Type: application/json
+
+{
+    "random": "random message"
+}
+
+###
