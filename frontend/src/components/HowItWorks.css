@@ -1,16 +1,33 @@
 
 
 .how-it-works {
+    margin-top: 5rem;
     padding: 40px 20px;
     text-align: center;
-  }
+}
+
+.how-it-works h2 {
+    margin-bottom: 4rem;
+}
   
-  .steps {
+.steps {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: space-around; /* Space out the steps */
-  }
+
+    border-top: 1px solid rgba(0, 0, 0, 0.1); /* Faint top border */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* Faint bottom border */
+
+    /* background-color: aqua; */
+}
   
-  .step {
+.step {
     width: 30%; /* Adjust the width of each step */
     padding: 20px;
-  }
+}
+
+.middle-step {
+    border-right: 1px solid rgba(0, 0, 0, 0.1); /* Faint top border */
+    border-left: 1px solid rgba(0, 0, 0, 0.1); /* Faint bottom border */
+}

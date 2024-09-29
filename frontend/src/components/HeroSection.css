@@ -2,11 +2,38 @@
 .hero-section {
     background-color: #007bff; /* Hero background color */
     color: white;
-    text-align: center;
-    padding: 50px 20px;
+    height: calc(100vh - 47px);
+    /* border-radius: 10px; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* position: relative; */
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../public/images/hero-background.png);
+  }
+
+  .hero-mid-wrapper {
+    transform: translateY(-70px);
+  }
+
+  .hero-mid-wrapper p {
+    font-size: 1.1rem;
   }
   
-  .hero-buttons button {
+  .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* background-color: aqua; */
+  }
+
+  .hero-btn-link {
     margin: 10px;
     padding: 10px 20px;
     font-size: 1em;
@@ -15,4 +42,5 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
   }

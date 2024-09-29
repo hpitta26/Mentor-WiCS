@@ -1,9 +1,60 @@
 
-.testimonials {
+.testimonials-container {
+    margin-top: 5rem;
     padding: 40px 20px;
     text-align: center;
 }
+
+.testimonials-container h2 {
+    margin-bottom: 4rem;
+}
   
-.testimonial {
-    margin: 20px 0;
+.testimonials-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.testimonial-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'Arial', sans-serif;
+}
+
+.quote-icon {
+    margin-bottom: -20px;
+    font-size: 60px;
+    color: #1E90FF; /* You can adjust the color to your preferred blue */
+}
+
+blockquote {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+.author-info {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+}
+
+.author-info h4 {
+    font-weight: 600;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.author-info p {
+    font-size: 0.85rem;
+    margin: 0;
 }

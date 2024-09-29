@@ -5,7 +5,7 @@ function Footer() {
     return (
         <footer className="footer">
             <div className="footer-links">
-                Footer Info goes here
+                Hope You Had Fun........ {';)'}
             </div>
         </footer>
     )

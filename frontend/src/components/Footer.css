@@ -1,9 +1,10 @@
 
 .footer {
     background-color: #343a40; /* Dark footer background */
+    margin-top: 80px;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
   }
   
   .footer-links {

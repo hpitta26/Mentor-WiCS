@@ -4,19 +4,28 @@ import './HowItWorks.css'
 function HowItWorks() {
     return (
         <div className="how-it-works">
-            <h2>How It Works</h2>
+            <h2>Join Our Community</h2>
             <div className="steps">
                 <div className="step">
-                    <h3>Sign Up</h3>
-                    <p>Create a free account to get started.</p>
+                    <h3>Find Scholarships</h3>
+                    <p>
+                        Discover a wide range of scholarships for women in Computer Science. 
+                        Unlock opportunities to fund your education and achieve your dreams.
+                    </p>
                 </div>
-                <div className="step">
+                <div className="step middle-step">
                     <h3>Choose Your Mentor</h3>
-                    <p>Browse our list of mentors and select one that fits your needs.</p>
+                    <p>
+                        Connect with experiences mentors who are passionate about guiding women in tech. 
+                        Browse our list of mentors and select one that fits your needs and goals.
+                    </p>
                 </div>
                 <div className="step">
                     <h3>Start Learning</h3>
-                    <p>Engage in meaningful conversations and grow your skills.</p>
+                    <p>
+                        Become a part of a supportive community of women in Computer Science. 
+                        Share experiences, collaborate on projects, and grow together.
+                    </p>
                 </div>
             </div>
         </div>

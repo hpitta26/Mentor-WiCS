@@ -13,6 +13,23 @@ Content-Type: application/json
 
 ###
 
+POST http://localhost:8000/api/mentors
+Content-Type: application/json
+
+{
+    "name": "Vera Carter",
+    "email": "vera.carter@example.com",
+    "password": "securepassword123",
+    "role": "mentor",
+    "bio": "Robotics engineer passionate about automation.",
+    "skills": ["Python", "ROS", "Embedded Systems"],
+    "specialization": "Robotics",
+    "availability": ["Monday", "Friday"]
+}
+
+
+###
+
 GET http://localhost:8000/api/mentees
 
 ###
@@ -29,3 +46,5 @@ Content-Type: application/json
 }
 
 ###
+
+GET http://localhost:8000/api/mentors

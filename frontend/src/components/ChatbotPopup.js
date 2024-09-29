@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import './ChatbotPopup.css'
 
+import axios from 'axios'
+
 
 function ChatbotPopup() {
     const [input, setInput] = useState('')
@@ -22,28 +24,22 @@ function ChatbotPopup() {
             { text: input, sender: 'user' },
         ])
     
-        // Clear input
-        setInput('')
+        setInput('') // Clear input
     
         try {
-            // const response = await fetch('/api/chatbot', {
-            //     method: 'POST',
-            //     headers: {
-            //     'Content-Type': 'application/json',
-            //     },
-            //     body: JSON.stringify({ message: input }),
-            // })
-    
-            // const data = await response.json()
-            // // Add bot reply to chat
-            // setMessages((prevMessages) => [
-            //     ...prevMessages,
-            //     { text: data.reply, sender: 'bot' },
-            // ])
+            const response = await axios.post('http://localhost:8000/api/chatbot', {
+                message: input,
+            })
+
             setMessages((prevMessages) => [
                 ...prevMessages,
                 { text: 'Bot Response', sender: 'bot' },
             ])
+
+            // setMessages((prevMessages) => [
+            //     ...prevMessages,
+            //     { text: response.data.reply, sender: 'bot' },
+            // ])
 
         } catch (error) {
             console.error('Error sending message:', error)

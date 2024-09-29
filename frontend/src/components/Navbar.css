@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bff; /* Navbar background color */
+    background-color: #3d4043; /* Navbar background color */
     padding: 10px 20px;
     color: white;
   }
@@ -10,6 +10,7 @@
   .navbar-brand h1 {
     margin: 0;
     font-size: 24px; /* Adjust the font size */
+    color: #c8cbcd;
   }
   
   .navbar-links {
