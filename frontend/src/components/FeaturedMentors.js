@@ -33,5 +33,3 @@ export default FeaturedMentors
                         <p className='mentor-description'>Bio: aoijwhdoihawo</p>
                     </div>
                 </div> */}
-                
-                {/* Repeat for more mentors... */}

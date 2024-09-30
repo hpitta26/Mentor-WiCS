@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom' // <Switch/> is deprecated --> use <Routes/>
 import React, {useState, useEffect, useContext, createContext} from 'react'
 
 import Navbar from './components/Navbar';
@@ -7,7 +7,7 @@ import Home from './pages/Home'
 import Mentors from './pages/Mentors'
 import UserForm from './pages/UserForm'
 import ChatbotPopup from './components/ChatbotPopup';
-import User from './pages/User';
+import UserProfile from './pages/UserProfile';
 
 export const MentorsContext = createContext([])
 
@@ -34,7 +34,7 @@ function App() {
               <Route path="/" element= {<Home />} />
               <Route path="/mentors" element= {<Mentors mentors={mentors} />} />
               <Route path="/create-user" element= {<UserForm />} />
-              <Route path="/user/:username" element= {<User/>} />
+              <Route path="/user/:username" element= {<UserProfile/>} />
             </Routes>
           </main>
           <ChatbotPopup/>
@@ -67,3 +67,11 @@ export default App;
 
 //Page Header --> Get out of your Comfort Zone
 //Way of Organically attracting new mentors to our App.
+
+
+
+//Future Ideas:
+// Inspire the Next Generation --> (Mentor sign-up page)
+
+// Instead of finding your ideal mentor --> web scrape Linkedin and find People that graduated from FIU and display them on our website, put the links to their social medias
+// Could implement down the line --> you put organizations you are a part of and we webscrape Linkedin for people that have been a part of those (if they are not already included in our DB)

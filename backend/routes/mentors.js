@@ -33,7 +33,7 @@ router.post('/', async (req, res) => {
 
     return res.status(201).json(newMentor)
     } catch (error) {
-      console.error('Error creating mentor:', error);
+      // console.error('Error creating mentor:', error);
       return res.status(500).json({
         message: 'Error creating mentor',
         error: error.message

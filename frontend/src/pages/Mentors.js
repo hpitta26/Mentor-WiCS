@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import {Link} from 'react-router-dom'
 import './Mentors.css'
 
 function Mentors({ mentors }) {
@@ -45,8 +46,9 @@ function Mentors({ mentors }) {
               <div className="mentor-card" key={mentor.id}>
                 <h3 className="mentor-name">{mentor.user.name}</h3>
                 <p className="mentor-title">{mentor.specialization}</p>
-                <p>{mentor.user.bio}</p>
-                <button className="connect-button">Connect</button>
+                <p className='mentor-bio'>{mentor.user.bio}</p>
+                {/* <button className="connect-button">Connect</button> */}
+                <Link to={`/user/${mentor.user.name}`} className='connect-button'>Connect</Link>
               </div>
             ))}
           </div>
